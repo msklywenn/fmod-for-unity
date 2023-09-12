@@ -60,11 +60,11 @@ namespace FMODUnity
 
         public void CreateSettingsAsset(string assetName)
         {
-            string resourcesPath = $"{FMODFolderFull}/Resources";
+            string resourcesPath = $"Assets/Plugins/FMOD/Resources";
 
             if (!Directory.Exists(resourcesPath))
             {
-                AssetDatabase.CreateFolder(FMODFolderFull, "Resources");
+                Directory.CreateDirectory(resourcesPath);
             }
             AssetDatabase.CreateAsset(RuntimeSettings, $"{resourcesPath}/{assetName}.asset");
 
