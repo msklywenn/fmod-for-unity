@@ -1,0 +1,16 @@
+{
+  "name": "com.fmod.unity",
+  "version": "2.2.16",
+  "displayName": "FMOD Studio",
+  "description": "FMOD Studio Unity Integration",
+  "unity": "2019.4",
+  "unityRelease": "0f1",
+  "dependencies": {
+ },
+ "keywords": [ "audio", "engine" ],
+  "author": {
+    "name": "Firelight Technologies Pty Ltd",
+    "email": "something@fmod.com",
+    "url": "https://www.fmod.com"
+  }
+}
